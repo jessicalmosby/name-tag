@@ -1,11 +1,12 @@
-console.log('Hello world');
+const nameDisplay = document.getElementById('name-display');
+console.log(nameDisplay);
 
-let dogName='Buster';
 
-function describeDog(dogName, age, breed) {
-    console.log(`My dog's name is ${dogName}!`);
-    console.log(`${dogName} is very cute.`);
-    console.log(`${dogName} is a ${age} year old ${breed}.`);
+nameDisplay.classList.add('purple');
 
-}
-describeDog('Buster', 4, 'pittie');
+const updateBtn = document.getElementById('update-btn');
+updateBtn.addEventListener('click', () => {
+    console.log('i am clicking the button');
+    const nameInput = document.getElementById('name-input');
+    nameDisplay.textContent = nameInput.value; 
+});
