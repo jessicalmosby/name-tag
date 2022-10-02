@@ -44,7 +44,11 @@ button {
     background: rgb(168, 113, 168);
     text-align: center;
     color: whitesmoke;
-    font-family: 'Times New Roman';
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Space Mono', monospace;
     border: 10px solid whitesmoke;
     border-radius: 10px;
 
@@ -57,7 +61,7 @@ h2 {
 }
 
 p {
-
+    
 }
 
 
@@ -69,4 +73,5 @@ p {
     font-family:
     font-size: 20px;
     text-transform:inherit
+    
 }
